@@ -1,0 +1,287 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.clear {
+  &:before,
+  &:after {
+    display: table;
+    clear: both;
+
+    content: " ";
+  }
+}
+
+._fleft {
+  float: left;
+}
+
+._fright {
+  float: right;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.base-layout {
+  width: 100%;
+  max-width: 942px;
+}
+
+.base-side {
+  width: 100%;
+  max-width: 254px;
+}
+
+.white-shadow-block {
+  background: $white;
+  box-shadow: 0 1px 2px rgba(#2f333a, .2);
+}
+
+.dashed-border-block {
+  border: 1px dashed $border;
+}
+
+.main {
+  display: flex;
+
+  align-items: flex-start;
+  @extend .wrapper;
+  justify-content: space-between;
+}
+
+.star-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  li {
+    position: relative;
+
+    margin-bottom: 20px;
+    padding-left: 25px;
+
+    color: $med-black;
+
+    font-size: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:before {
+      position: absolute;
+      top: 2px;
+      left: 0;
+
+      content: "";
+
+      @include bg($star-green);
+    }
+  }
+}
+
+.numered-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  counter-reset: li;
+  li {
+    position: relative;
+
+    margin-bottom: 20px;
+    padding-left: 48px;
+
+    color: $med-black;
+
+    font-size: 14px;
+    &:before {
+      position: absolute;
+      left: 0;
+
+      display: block;
+
+      width: 30px;
+      height: 30px;
+
+      content: counter(li);
+      counter-increment: li;
+      text-align: center;
+
+      color: #a19fa0;
+      border: 2px solid #e0dfe0;
+      border-radius: 50%;
+
+      font-family: Arial;
+      font-weight: 700;
+      line-height: 32px;
+    }
+  }
+}
+
+.button {
+  transition: all .2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+
+  border: 0;
+
+  font-size: 20px;
+  &._green {
+    color: $white;
+    background: $green;
+    &:hover {
+      background: $green + #111;
+    }
+  }
+  &._blue {
+    color: $white;
+    background: $blue;
+    &:hover {
+      background: $blue + #111;
+    }
+  }
+  &._question {
+    position: relative;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 54px;
+
+    line-height: 52px;
+    &:before {
+      position: absolute;
+      top: 11px;
+      left: 17px;
+
+      display: block;
+
+      content: "";
+
+      @include bg($question-btn);
+    }
+  }
+  &._test {
+    width: 185px;
+    height: 46px;
+
+    font-size: 18px;
+  }
+}
+
+.form {
+  & * {
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+.form-row {
+  display: flex;
+
+  margin-bottom: 20px;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-block {
+  margin-bottom: 20px;
+  label {
+    margin-bottom: 5px;
+  }
+}
+
+.form-label {
+  display: block;
+
+  text-transform: uppercase;
+
+  color: #666;
+
+  font-size: 13px;
+  &._test {
+    width: 270px;
+  }
+  &._settings {
+    width: 135px;
+  }
+}
+
+.form-date-group {
+  display: flex;
+
+  width: 100%;
+  max-width: 300px;
+
+  justify-content: flex-start;
+  &__number {
+    width: 58px;
+  }
+  &__month {
+    width: 150px;
+  }
+  &__year {
+    width: 80px;
+  }
+  .form-select {
+    width: 100%;
+
+    border: 1px solid #eee;
+  }
+}
+
+.form-select {
+  width: 300px;
+  height: 35px;
+
+  border: 0;
+  border-radius: 0;
+  background: $white;
+}
+
+.form-radio {
+  display: block;
+  &._inline {
+    display: inline-block;
+
+    margin-right: 20px;
+  }
+  &__field {
+    position: relative;
+    top: 1px;
+
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+
+    border: 1px solid #afafaf;
+  }
+  span {
+    display: inline-block;
+
+    padding-left: 3px;
+
+    vertical-align: middle;
+
+    color: $med-black;
+  }
+}
+
+.form-field {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+
+  border: 1px solid #eee;
+  &._textarea {
+    height: 92px;
+  }
+}

@@ -1,0 +1,9 @@
+.profile-settings {
+  display: flex;
+
+  padding: 30px;
+
+  align-items: flex-start;
+  @extend .white-shadow-block;
+  justify-content: flex-start;
+}

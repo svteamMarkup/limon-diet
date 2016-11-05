@@ -1,0 +1,49 @@
+.modules-menu {
+  display: flex;
+
+  margin-bottom: 27px;
+
+  align-items: center;
+  @extend .white-shadow-block;
+  justify-content: space-between;
+  &__item {
+    display: block;
+
+    width: (100 / 6) * 1%;
+    height: 40px;
+
+    transition: all .2s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+
+    color: $blue;
+    border-right: 1px solid #dde4e9;
+
+    font-size: 14px;
+    line-height: 40px;
+    &:last-child {
+      border-right: 0;
+    }
+    &:hover,
+    &._active {
+      color: $med-blue;
+      background: #cfd9e0;
+    }
+    &._finish {
+      position: relative;
+
+      background: #ececec;
+      &:after {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        display: block;
+
+        content: "";
+
+        @include bg($check);
+      }
+    }
+  }
+}

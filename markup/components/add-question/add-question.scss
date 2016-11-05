@@ -1,0 +1,14 @@
+.add-question {
+  padding: 30px;
+
+  @extend .white-shadow-block;
+  &__title {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+
+    color: $green;
+
+    font-size: 21px;
+  }
+}

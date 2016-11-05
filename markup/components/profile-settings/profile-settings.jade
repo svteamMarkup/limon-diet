@@ -1,0 +1,57 @@
+mixin profile-settings(data)
+  .profile-settings
+    .profile-settings-avatar
+      img(src="%=static=%images/assets/profile-settings/default.png" alt="")
+
+      .upload-button
+        .upload-button__mask
+          i.fa.fa-camera
+          span Загрузить фото
+        input(type="file").upload-button__field
+
+    .profile-settings-form
+      form.form
+        .form-row
+          label.form-label._settings Фамилия 
+          input(type="text" value="Пустовой").form-field
+        .form-row
+          label.form-label._settings Имя
+          input(type="text" value="Денис").form-field
+        .form-row
+          label.form-label._settings Отчество
+          input(type="text" value="Петрович").form-field
+        .form-row
+          label.form-label._settings Email
+          input(type="text" value="denver2@yandex.ru").form-field
+        .form-row
+          label.form-label._settings Профессия
+          input(type="text" value="механик").form-field
+        .form-row
+          label.form-label._settings Телефон
+          input(type="text" value="9859121452").form-field
+        .form-row
+          label.form-label._settings День рождения
+          .form-date-group
+            .form-date-group__number
+              select.form-select
+                option 15
+            .form-date-group__month
+              select.form-select
+                option Май
+            .form-date-group__year
+              select.form-select
+                option 1970
+        .form-row
+          label.form-label._settings Пол
+          label.form-radio._inline
+            input(type="radio" name="").form-radio__field
+            span.form-radio__text Мужчина
+          label.form-radio._inline
+            input(type="radio" name="").form-radio__field
+            span.form-radio__text Женщина
+        .form-row
+          label.form-label._settings Страна
+          input(type="text" value="Россия").form-field
+        .form-row
+          label.form-label._settings Город
+          input(type="text" value="Москва").form-field

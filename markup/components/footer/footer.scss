@@ -1,0 +1,9 @@
+.footer {
+  margin-top: 70px;
+  padding: 10px 0;
+
+  background: #727272;
+  &__logo {
+    @include bg($logo-footer);
+  }
+}

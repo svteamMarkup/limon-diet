@@ -1,0 +1,15 @@
+mixin add-question(data)
+  .add-question
+    .add-question__title Задать вопрос
+
+    form.form
+      .form-block
+        label.form-label Тема
+        input(type="text" value="").form-field
+
+      .form-block
+        label.form-label Вопрос
+        textarea.form-field._textarea
+
+      .clear
+        input(type="submit" value="Отправить").button._green._test._fright

@@ -1,0 +1,31 @@
+.main-consult {
+  display: flex;
+
+  padding: 55px 40px 40px 50px;
+
+  align-items: flex-start;
+  @extend .white-shadow-block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__title {
+    margin-bottom: 30px;
+
+    color: $med-black;
+
+    font-size: 31px;
+    line-height: 1;
+    strong {
+      color: $green;
+    }
+  }
+  &__content {
+    width: 100%;
+    max-width: 660px;
+  }
+  &__sertificates {
+    width: 100%;
+    img {
+      margin-right: 40px;
+    }
+  }
+}

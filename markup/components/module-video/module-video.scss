@@ -1,0 +1,32 @@
+.module-video {
+  display: flex;
+
+  margin-bottom: 30px;
+
+  align-items: center;
+  justify-content: space-between;
+  &__iframe {
+    width: 100%;
+    max-width: 560px;
+  }
+  &__text {
+    position: relative;
+
+    padding-left: 75px;
+
+    color: $med-black;
+
+    font-size: 14px;
+    line-height: 23px;
+    &:before {
+      position: absolute;
+      left: 25px;
+
+      display: block;
+
+      content: "";
+
+      @include bg($info);
+    }
+  }
+}

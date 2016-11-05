@@ -1,0 +1,17 @@
+mixin main-consult(data)
+  .main-consult
+    .main-consult__content
+      .main-consult__title Ваш консультант 
+        strong Пустовая Ксения
+
+      ul.star-list
+        li Сертифицированный консультант по вопросам питания и диетологии
+        li Участник международных конференций по функциональному питанию июнь 2012, сентябрь 2013 г.
+        li Практикующий бизнес тренер (2010-2016 гг.)
+        li Эксперт в сфере имиджа и стиля (международный диплом IES (International education society ), London (2001-2006 гг.)
+
+    img(src="%=static=%images/assets/main-consult/pustova.png" alt="")
+
+    .main-consult__sertificates
+      - for (var i = 1; i < 6; i++)
+        img(src="%=static=%images/assets/main-consult/sertificate#{i}.png" alt="")

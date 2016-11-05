@@ -1,0 +1,26 @@
+.main-method {
+  margin-top: 30px;
+  padding: 40px 45px 20px 50px;
+
+  @extend .dashed-border-block;
+  &__title {
+    position: relative;
+
+    margin-bottom: 30px;
+    padding-left: 55px;
+
+    color: $med-black;
+
+    font-size: 31px;
+    &:before {
+      position: absolute;
+      left: 0;
+
+      display: block;
+
+      content: "";
+
+      @include bg($method);
+    }
+  }
+}

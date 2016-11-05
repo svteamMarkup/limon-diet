@@ -1,0 +1,63 @@
+mixin module-test(data)
+  .module-test
+    .module-test__title Тестирование
+
+    form.form
+      .form-row
+        label.form-label._test Как правильно готовить еду?
+        select.form-select
+          option Выберите ответ
+
+      .form-row
+        label.form-label._test Как правильно готовить еду?
+        
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 3
+
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 5
+
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 10
+
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text Сколько хочешь
+
+      .form-row
+        label.form-label._test Сколько раз  в день нужно кушать?
+        
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 1
+
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 2
+
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 5
+
+        label.form-radio._inline
+          input(type="radio" name="").form-radio__field
+          span.form-radio__text 10
+
+      .form-row
+        label.form-label._test Как правильно готовить еду?
+        select.form-select
+          option Выберите ответ
+
+      .module-test__bottom
+        input(type="submit" value="Отправить отчет").button._blue._test
+
+        a(href="#" title="").module-test__save
+          i.fa.fa-floppy-o
+          span Сохранить отчет
+
+        .module-test__done Отчет принят          
+
+

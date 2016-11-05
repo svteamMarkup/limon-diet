@@ -1,0 +1,40 @@
+.questions {
+  margin-top: 20px;
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    color: $med-black;
+
+    font-size: 21px;
+  }
+  &__item {
+    position: relative;
+
+    display: block;
+
+    margin-bottom: 25px;
+    padding-left: 20px;
+
+    text-decoration: none;
+
+    color: $blue;
+
+    font-size: 15px;
+    .fa {
+      position: absolute;
+      top: 3px;
+      left: 0;
+
+      color: rgba(#747985, .5);
+    }
+    span {
+      border-bottom: 1px dashed $blue;
+    }
+    &:hover {
+      span {
+        border-bottom: 1px solid $blue;
+      }
+    }
+  }
+}

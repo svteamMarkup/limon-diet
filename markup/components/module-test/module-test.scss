@@ -1,0 +1,62 @@
+.module-test {
+  margin-top: 30px;
+  padding: 40px;
+
+  background-color: #ebebeb;
+  &__title {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+
+    color: $med-black;
+
+    font-size: 21px;
+  }
+  &__bottom {
+    display: flex;
+
+    margin-top: 30px;
+    padding-top: 30px;
+
+    border-top: 1px solid #d3d3d3;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__save {
+    display: block;
+
+    text-decoration: none;
+
+    color: $blue;
+
+    font-size: 13px;
+    &:hover {
+      text-decoration: underline;
+    }
+    .fa {
+      position: relative;
+      top: 1px;
+
+      margin-right: 10px;
+
+      font-size: 18px;
+    }
+  }
+  &__done {
+    position: relative;
+
+    color: $green;
+
+    font-size: 18px;
+    &:before {
+      position: absolute;
+      top: 3px;
+      left: -30px;
+
+      content: "";
+
+      @include bg($check-green);
+    }
+  }
+}

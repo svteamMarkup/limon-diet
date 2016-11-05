@@ -1,0 +1,94 @@
+.menu {
+  width: 100%;
+  max-width: 720px;
+  &__mobile {
+    display: none;
+  }
+  &__list {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__item {
+    position: relative;
+
+    display: block;
+    border-right: 1px solid #efefef;
+    height: 71px;
+    padding-right: 20px;
+    padding-left: 40px;
+
+    white-space: nowrap;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: $med-blue;
+
+    font-size: 16px;
+    line-height: 71px;
+    &:hover, &._active {
+      &:after {
+        width: 90%;
+
+        cursor: pointer;
+      }
+    }
+    &:before {
+      position: absolute;
+      top: 26px;
+      left: 15px;
+
+      display: block;
+
+      content: "";
+    }
+    &:after {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      width: 0;
+      height: 4px;
+      margin: auto;
+
+      content: "";
+      transition: all .2s ease-in-out;
+
+      background: $blue;
+    }
+    &._book {
+      &:before {
+        left: 10px;
+
+        @include bg($book);
+      }
+    }
+    &._question {
+      &:before {
+        @include bg($question);
+      }
+    }
+    &._diary {
+      &:before {
+        top: 25px;
+        left: 17px;
+
+        @include bg($diary);
+      }
+    }
+    &._star {
+      &:before {
+        top: 24px;
+
+        @include bg($star);
+      }
+    }
+    &._settings {
+      &:before {
+        @include bg($settings);
+      }
+    }
+  }
+}

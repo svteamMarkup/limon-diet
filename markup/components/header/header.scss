@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: auto;
+  margin-bottom: 27px;
+  padding-right: 21px;
+
+  background: $white;
+  box-shadow: 0 1px 6px rgba(#4d5e79, .4);
+
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+    display: block;
+
+    @include bg($logo-header);
+  }
+}

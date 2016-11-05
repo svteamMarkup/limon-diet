@@ -1,0 +1,36 @@
+doctype html
+html(class="no-js", lang="ru")
+
+  include ../components/head/head
+  include ../components/header/header
+  include ../components/menu/menu
+  include ../components/user/user
+  include ../components/modules-menu/modules-menu
+  include ../components/progress/progress
+  include ../components/questions/questions
+  include ../components/main-consult/main-consult
+  include ../components/main-method/main-method
+  include ../components/modules-list/modules-list
+  include ../components/module-video/module-video
+  include ../components/module-test/module-test
+  include ../components/add-question/add-question
+  include ../components/answer-question/answer-question
+  include ../components/question-master/question-master
+  include ../components/profile-settings/profile-settings
+  include ../components/footer/footer
+
+  head
+    +head(head.defaults)
+  body
+    block header
+    +header
+
+    main.main
+      block content
+        h1 Hello!
+
+    block footer
+    +footer()
+
+  //- Main scripts. You can replace it, but I recommend you to leave it here
+  script(src='%=static=%js/main%=hash=%%=min=%.js')
