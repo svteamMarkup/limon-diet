@@ -1,0 +1,69 @@
+.new-item-diary {
+  padding: 30px;
+
+  @extend .white-shadow-block;
+  &__title {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+
+    color: $green;
+
+    font-size: 21px;
+  }
+  &__bottom {
+    margin-top: 30px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__upload {
+    width: 100%;
+    max-width: 240px;
+  }
+}
+
+.new-item-diary-form {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  &__block {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+  &__label {
+    text-align: right;
+    text-transform: uppercase;
+
+    color: $blue;
+
+    font-size: 17px;
+    span {
+      display: block;
+
+      text-transform: none;
+
+      color: #a2a1a1;
+
+      font-size: 13px;
+    }
+  }
+  &__field {
+    box-sizing: border-box;
+    width: 62px;
+    height: 42px;
+    margin-left: 10px;
+
+    text-align: center;
+
+    border: 1px solid #e5e5e5;
+    border-bottom: 2px solid $green;
+    &:focus {
+      outline: none;
+    }
+  }
+}

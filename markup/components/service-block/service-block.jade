@@ -1,0 +1,10 @@
+mixin service-block(label, image, title)
+  .service-block
+    - if (label)
+      .service-block__label новинка
+    .service-block__img
+      img(src="%=static=%images/assets/service-block/#{image}.png" alt="")
+    .service-block__title!=title
+    .service-block__text Ваша задача после этого занятия сбалансировать свой рацион в соответствии с рекомендациями
+
+    a(href="#" title="").service-block__btn.button._green._test Подробнее

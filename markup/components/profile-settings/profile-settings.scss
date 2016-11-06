@@ -7,3 +7,11 @@
   @extend .white-shadow-block;
   justify-content: flex-start;
 }
+
+.profile-settings-avatar {
+  max-width: 252px;
+  margin-right: 60px;
+  img {
+    margin-bottom: 40px;
+  }
+}

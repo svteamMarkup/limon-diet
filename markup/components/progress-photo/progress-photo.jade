@@ -1,0 +1,14 @@
+mixin progress-photo(data)
+  .progress-photo
+    .progress-photo__title Фото прогресс
+
+    .progress-photo-slider
+      - for (var i = 0; i < 10; i++)
+        .progress-photo-item
+          .progress-photo-item__delete
+            i.fa.fa-times
+          .progress-photo-item__img
+            img(src="http://placehold.it/170x200" alt="")
+          .progress-photo-item__info
+            .progress-photo-item__weight 63 кг
+            .progress-photo-item__date 29.01.2016

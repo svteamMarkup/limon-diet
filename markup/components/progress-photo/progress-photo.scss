@@ -1,0 +1,93 @@
+.progress-photo {
+  margin-top: 30px;
+  padding: 30px;
+
+  background: #ebebeb;
+  box-shadow: 0 1px 1px rgba(#2f333a, .2);
+  &__title {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+
+    color: #666;
+
+    font-size: 20px;
+  }
+}
+
+.progress-photo-item {
+  position: relative;
+  &__delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: 17px;
+    height: 17px;
+
+    transition: all .4s ease-in-out;
+    text-align: center;
+
+    color: $white;
+    border-radius: 5px;
+    background: rgba(#ebebeb, .5);
+
+    font-size: 13px;
+    line-height: 17px;
+    &:hover {
+      color: $gray;
+      background: rgba(#ebebeb, .8);
+    }
+  }
+  &__info {
+    display: flex;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 170px;
+    padding: 15px;
+
+    background: $white;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__weight {
+    color: #666;
+
+    font-size: 21px;
+  }
+  &__date {
+    color: rgba(#666, .5);
+
+    font-size: 13px;
+  }
+}
+
+
+
+.slick-prev {
+  left: -25px;
+  [dir="rtl"] & {
+    right: -25px;
+    left: auto;
+  }
+  &:before {
+    display: block;
+
+    content: "";
+
+    @include bg($prev);
+  }
+}
+
+.slick-next {
+  right: -25px;
+  &:before {
+    display: block;
+
+    content: "";
+
+    @include bg($next);
+  }
+}

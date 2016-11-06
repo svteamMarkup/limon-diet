@@ -1,0 +1,14 @@
+extends ./_layout
+
+block content
+  .base-layout
+    .service-list
+      +service-block(true, 'service-1', 'Калькулятор сожженных калорий')
+      +service-block(false, 'service-2', 'Калькулятор суточных калорий')
+      +service-block(false, 'service-3', 'Калькулятор ИМТ <br>(BMI)')
+      +service-block(false, 'service-4', 'Калькулятор калорийности продуктов')
+      +service-block(false, 'service-5', 'Рецепты <br> для худеющих')
+
+  .base-side
+    +progress()
+    +questions()

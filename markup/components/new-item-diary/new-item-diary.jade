@@ -1,0 +1,33 @@
+mixin new-item-diary(data)
+  .new-item-diary
+    .new-item-diary__title Новая запись в дневнике
+
+    .new-item-diary-form
+      .new-item-diary-form__block
+        .new-item-diary-form__label Вес
+          span (кг)
+        input(type="text" value="").new-item-diary-form__field
+
+      .new-item-diary-form__block
+        .new-item-diary-form__label Объем груди
+          span (кг)
+        input(type="text" value="").new-item-diary-form__field
+
+      .new-item-diary-form__block
+        .new-item-diary-form__label Объем талии
+          span (см)
+        input(type="text" value="").new-item-diary-form__field
+
+      .new-item-diary-form__block
+        .new-item-diary-form__label Объем бедер
+          span (см)
+        input(type="text" value="").new-item-diary-form__field
+
+    .new-item-diary__bottom
+      .upload-button.new-item-diary__upload
+        .upload-button__mask
+          i.fa.fa-camera
+          span Загрузить фото
+        input(type="file").upload-button__field
+
+      input(type="submit" value="Сохранить запись").button._green._test._submit

@@ -22,7 +22,9 @@ module.exports = {
             "useHMR": false
         },
         "jsPathsToConcatBeforeModulesJs": [
-            'node_modules/jquery/dist/jquery.min.js'
+            'node_modules/jquery/dist/jquery.min.js',
+            'node_modules/highcharts/highcharts.js',
+            'node_modules/slick-carousel/slick/slick.min.js'
         ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],
@@ -47,8 +49,8 @@ module.exports = {
     "minifyHtml": false,
     "generateStaticPath": true,
     "buildPath": "./builds/",
-    "useBuildVersioning": true,
-    "useArchiver": true,
+    "useBuildVersioning": false,
+    "useArchiver": false,
     "ulimit": 4096,
     "templater": "jade",
     "cssPreprocessor": "scss",
