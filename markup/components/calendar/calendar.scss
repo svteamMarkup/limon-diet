@@ -1,0 +1,57 @@
+.calendar {
+  padding: 20px;
+  padding-bottom: 0;
+
+  @extend .white-shadow-block;
+  &__table {
+    width: 100%;
+
+    text-align: center;
+  }
+  &__month {
+    color: $med-black;
+
+    font-size: 20px;
+  }
+  &__arrow {
+    color: #999;
+
+    font-size: 20px;
+  }
+  &__days {
+    color: rgba(#999, 5);
+
+    font-size: 12px;
+    td {
+      padding: 5px 0;
+    }
+  }
+  &__list {
+    span,
+    a {
+      display: block;
+
+      width: 22px;
+      height: 22px;
+
+      text-align: center;
+      text-decoration: none;
+
+      color: #666;
+      border-radius: 50%;
+      background: #ebebeb;
+
+      font-size: 12px;
+      line-height: 22px;;
+    }
+    td {
+      padding: 4px 0;
+      &._today {
+        a {
+          color: $white;
+          background: $blue;
+        }
+      }
+    }
+  }
+}

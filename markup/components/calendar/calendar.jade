@@ -1,0 +1,20 @@
+mixin calendar(data)
+  .calendar
+    table.calendar__table#calendar
+      thead
+        tr
+          td.calendar__arrow
+            i.fa.fa-angle-left
+          td(colspan="5").calendar__month
+          td.calendar__arrow
+            i.fa.fa-angle-right
+        tr.calendar__days
+          td Пн
+          td Вт
+          td Ср
+          td Чт
+          td Пт
+          td Сб
+          td Вс
+      tbody.calendar__list
+      

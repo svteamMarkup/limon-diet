@@ -3693,7 +3693,7 @@ blockquote {
   max-width: 254px;
 }
 
-.white-shadow-block, .add-question, .answer-question-pro, .main-consult, .modules-list, .modules-menu, .new-item-diary, .profile-settings, .progress, .question-master {
+.white-shadow-block, .add-question, .answer-question-pro, .calendar, .main-consult, .modules-list, .modules-menu, .new-item-diary, .profile-settings, .progress, .question-master {
   background: #fff;
   box-shadow: 0 1px 2px rgba(47, 51, 58, 0.2);
 }
@@ -4084,6 +4084,58 @@ body {
   line-height: 23px;
 }
 
+.calendar {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.calendar__table {
+  width: 100%;
+  text-align: center;
+}
+
+.calendar__month {
+  color: #333;
+  font-size: 20px;
+}
+
+.calendar__arrow {
+  color: #999;
+  font-size: 20px;
+}
+
+.calendar__days {
+  color: #999999;
+  font-size: 12px;
+}
+
+.calendar__days td {
+  padding: 5px 0;
+}
+
+.calendar__list span,
+.calendar__list a {
+  display: block;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+  border-radius: 50%;
+  background: #ebebeb;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.calendar__list td {
+  padding: 4px 0;
+}
+
+.calendar__list td._today a {
+  color: #fff;
+  background: #42a1e1;
+}
+
 .chart {
   margin-top: 30px;
   padding: 30px;
@@ -4156,6 +4208,71 @@ body {
   height: 71px;
   background-size: 241px, 222px;
   background-repeat: no-repeat;
+}
+
+.last-diary-items {
+  padding-top: 40px;
+}
+
+.last-diary-items__title {
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 21px;
+}
+
+.last-diary-items__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 0;
+  color: #818080;
+  border-bottom: 1px solid #dcdcdc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.last-diary-items__row._green {
+  color: #60ba62;
+}
+
+.last-diary-items__row._red {
+  color: #c67660;
+}
+
+.last-diary-items__arrow {
+  font-size: 17px;
+}
+
+.last-diary-items__weight {
+  font-size: 21px;
+}
+
+.last-diary-items__weight-count {
+  font-size: 15px;
+}
+
+.last-diary-items__date {
+  color: #818080;
+  font-size: 15px;
+}
+
+.last-diary-items__control {
+  display: block;
+  box-sizing: border-box;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  color: #525458;
+  color: rgba(82, 84, 88, 0.5);
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 12px;
+  line-height: 17px;
 }
 
 .main-consult {

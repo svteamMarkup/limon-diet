@@ -1,0 +1,59 @@
+.last-diary-items {
+  padding-top: 40px;
+  &__title {
+    margin-bottom: 5px;
+
+    color: $med-black;
+
+    font-size: 21px;
+  }
+  &__row {
+    display: flex;
+
+    padding: 5px 0;
+
+    color: #818080;
+    border-bottom: 1px solid #dcdcdc;
+
+    align-items: center;
+    justify-content: space-between;
+    &._green {
+      color: $green;
+    }
+    &._red {
+      color: $red;
+    }
+  }
+  &__arrow {
+    font-size: 17px;
+  }
+  &__weight {
+    font-size: 21px;
+  }
+  &__weight-count {
+    font-size: 15px;
+  }
+  &__date {
+    color: #818080;
+
+    font-size: 15px;
+  }
+  &__control {
+    display: block;
+
+    box-sizing: border-box;
+    width: 19px;
+    height: 19px;
+
+    text-align: center;
+
+    color: #525458;
+    color: rgba(#525458, .5);
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: $white;
+
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
