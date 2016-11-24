@@ -4,12 +4,148 @@
 		"selected_items":
 		[
 			[
-				"back",
-				"background-size\tstyl"
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"las",
+				"last-diary-items"
 			],
 			[
 				"pad",
-				"padding-bottom\tstyl"
+				"padding-bottom"
+			],
+			[
+				"cale",
+				"calendar"
+			],
+			[
+				"la",
+				"last-diary-items"
+			],
+			[
+				"pro",
+				"progress-photo"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"new",
+				"new-item-diary-form"
+			],
+			[
+				"cha",
+				"chart-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"form",
+				"form-select"
+			],
+			[
+				"frm",
+				"form-date-group"
+			],
+			[
+				"fo",
+				"form-label"
+			],
+			[
+				"pr",
+				"profile-settings"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"que",
+				"question-master"
+			],
+			[
+				"qu",
+				"question-master"
+			],
+			[
+				"q",
+				"question-master"
+			],
+			[
+				"mode",
+				"module-test-form"
+			],
+			[
+				"opt",
+				"option"
+			],
+			[
+				"mo",
+				"module-video"
+			],
+			[
+				"mod",
+				"module-video"
+			],
+			[
+				"fn",
+				"font-size\t(GUI.scss)"
+			],
+			[
+				"prog",
+				"progress-circle\t(progress.scss)"
+			],
+			[
+				"main-",
+				"main-method\t(main-method.jade)"
+			],
+			[
+				"main",
+				"main-method"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"back",
+				"background-size\tstyl"
 			],
 			[
 				"bac",
@@ -40,16 +176,8 @@
 				"js-parallax-window\t(deal.php)"
 			],
 			[
-				"margin",
-				"margin-bottom\tstyl"
-			],
-			[
 				"comm",
 				"comment"
-			],
-			[
-				"wi",
-				"width\tstyl"
 			],
 			[
 				"texta",
@@ -76,18 +204,6 @@
 				"image-src"
 			],
 			[
-				"text",
-				"text-align\tstyl"
-			],
-			[
-				"font",
-				"font-size\tstyl"
-			],
-			[
-				"marign",
-				"margin-right\tstyl"
-			],
-			[
 				"paddin",
 				"padding-bottom\tstyl"
 			],
@@ -102,10 +218,6 @@
 			[
 				"data-va",
 				"data-validation-length"
-			],
-			[
-				"form",
-				"form-validator"
 			],
 			[
 				"js-form",
@@ -148,10 +260,6 @@
 				"myPlacemarkParking2"
 			],
 			[
-				"padd",
-				"padding\tstyl"
-			],
-			[
 				"block",
 				"blockquote\t<blockquote>"
 			],
@@ -192,10 +300,6 @@
 				"js-prin-drive"
 			],
 			[
-				"mo",
-				"module-h1"
-			],
-			[
 				"wa-bl",
 				"wa-blog-similar"
 			],
@@ -206,10 +310,6 @@
 			[
 				"con",
 				"console"
-			],
-			[
-				"fon",
-				"font-size\tstyl"
 			],
 			[
 				"margi",
@@ -256,10 +356,6 @@
 				"background-color\tstyl"
 			],
 			[
-				"max",
-				"max-width\tstyl"
-			],
-			[
 				"wa-blog-bet",
 				"wa-blog-better-item"
 			],
@@ -282,10 +378,6 @@
 			[
 				"marg",
 				"margin-top"
-			],
-			[
-				"pro",
-				"profile-settings-form__select"
 			],
 			[
 				"op",
@@ -396,10 +488,6 @@
 				"visibility\tstyl"
 			],
 			[
-				"new",
-				"newIndex"
-			],
-			[
 				"min",
 				"min-height"
 			],
@@ -426,94 +514,6 @@
 			[
 				"radio-block",
 				"radio-block__ui\t(index.php)"
-			],
-			[
-				"radio",
-				"radio-block\t(index.php)"
-			],
-			[
-				"radio-blo",
-				"radio-block-over"
-			],
-			[
-				"link",
-				"linkHolders"
-			],
-			[
-				"radi",
-				"radioBlockUi"
-			],
-			[
-				"c-las",
-				"c-last-update-top"
-			],
-			[
-				"c-la",
-				"c-last-update-top"
-			],
-			[
-				"produc",
-				"product-list"
-			],
-			[
-				"clea",
-				"clear\t(index.php)"
-			],
-			[
-				"conte",
-				"content-area"
-			],
-			[
-				"gra",
-				"graph-line-text\t(index.php)"
-			],
-			[
-				"grap",
-				"graph-line-text\t(index.php)"
-			],
-			[
-				"_over",
-				"_overnundred"
-			],
-			[
-				"c-ex",
-				"c-expert-opinion__column"
-			],
-			[
-				"ta",
-				"target\tAttr"
-			],
-			[
-				"conten",
-				"content-center\t(index.php)"
-			],
-			[
-				"уче",
-				"учета"
-			],
-			[
-				"кад",
-				"кадрового"
-			],
-			[
-				"запр",
-				"зарплатой"
-			],
-			[
-				"эксп",
-				"экспресс-обследование"
-			],
-			[
-				"беспта",
-				"бесплатное"
-			],
-			[
-				"clear",
-				"clearme"
-			],
-			[
-				"c-comap",
-				"c-compare-recomend-bottom"
 			]
 		]
 	},
@@ -591,10 +591,81 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/svteam/limon-diet/markup"
+		"/Users/extiser/git/svteam/limon-diet/markup",
+		"/Users/extiser/git/svteam/limon-diet/markup/components",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/last-diary-items",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/modules-menu/assets",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages",
+		"/Users/extiser/git/svteam/limon-diet/markup/static",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/libraries"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/diary.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/last-diary-items/last-diary-items.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/last-diary-items/last-diary-items.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/vars.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/calendar/calendar.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/calendar/calendar.js",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/calendar/calendar.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/_layout.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/progress-photo/progress-photo.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/progress-photo/progress-photo.js",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/progress-photo/progress-photo.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/libraries/slick-theme.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/libraries/slick.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/new-item-diary/new-item-diary.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/new-item-diary/new-item-diary.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/chart/chart.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/chart/chart.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/chart/highcharts.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/chart/chart.js",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/services.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/service-block/service-block.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/service-block/service-block.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/profile-settings/profile-settings.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/profile-settings/profile-settings.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/profile.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/questions.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/question-master/question-master.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/question-master/question-master.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/answer-question/answer-question.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/answer-question/answer-question.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/add-question/add-question.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/add-question/add-question.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/modul.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/module-test/module-test.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/module-test/module-test.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/modules-list/modules-list.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/module-video/module-video.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/module-video/module-video.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/modules-list/modules-list.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/footer/footer.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/modules-menu/modules-menu.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/modules-menu/modules-menu.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/questions/questions.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/questions/questions.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/progress/progress.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/progress/progress.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/menu/menu.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/main-method/main-method.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/main-method/main-method.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/main-consult/main-consult.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/main-consult/main-consult.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/pages/index.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/header/header.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/common.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/user/user.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/user/user.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/menu/menu.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/header/header.jade",
+		"/Users/extiser/git/svteam/limon-diet/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/svteam/limon-diet/tars-config.js",
+		"/Users/extiser/git/svteam/limon-diet/markup/static/scss/fonts.scss",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/form-validation.js",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/contacts/index.php",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/career/vacancy-detail.php",
@@ -658,75 +729,11 @@
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/about-company/wa-values-slide-toggle.js",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/infocenter/news-detail.php",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/blog-entry.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/index.php",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-list-section.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/fonts.styl",
-		"/Users/extiser/Downloads/temp/fix-mobi-direct.txt",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-similar.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-better.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/mixins/variables.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/main.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/blog/wa-subscribe.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/subscribe.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-main.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/blog/wa-blog.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/infocenter/wa-news.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/wa-comments.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/social-sharing.styl",
-		"/Users/extiser/git/default-template/sovets24/static/css/main.min.css",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/templates/main/js/main.js",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/vacancy-plate.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-audience.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/blog/blog-rubric.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/helpers.styl",
-		"/Users/extiser/MAMP/wiseadvice-new.ru/.git/info/exclude",
-		"/Users/extiser/MAMP/wiseadvice.ru/.git/info/exclude",
-		"/Users/extiser/Downloads/temp/Новая папка/waru_28_09_16_backup/.access.php",
-		"/Users/extiser/git/nnm/markup/pages/reg.jade",
-		"/Users/extiser/git/nnm/markup/components/registration/registration.jade",
-		"/Users/extiser/git/nnm/markup/components/registration/registration.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-2-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/header/header.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/header/header.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/registration/registration.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/registration/registration.jade",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/profile.jade",
-		"/Users/extiser/git/dietplatnik/tars-config.js",
-		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/_layout.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-3.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1_2.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/index.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/peoples.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/peoples.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/master/master.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/master/master.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/advantages/advantages.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/advantages/advantages.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/baner-main/baner-main.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/baner-main/baner-main.scss",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/vars.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/data/data.js",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/advantages/data/data.js",
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
-		"/Users/extiser/git/ozone/markup/components/tabs/data/data.js",
-		"/Users/extiser/git/dietplatnik/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/eva/markup/static/scss/mixins.scss"
+		"/Users/extiser/MAMP/wiseadvice-new.ru/local/markup/blog/index.php"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -766,6 +773,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"calendar2",
+			"label.form-label",
+			"label",
+			"span",
+			".big",
+			"span",
+			"hover",
+			"big",
 			"leader",
 			"section-nav",
 			".section-nav",
@@ -885,15 +900,7 @@
 			"tab",
 			"taи",
 			"tar",
-			"radio-block",
-			"К какому",
-			"Подходит ли вам",
-			"Реализованные",
-			"руали",
-			"c-prices",
-			"font-size: 20px;",
-			"table",
-			"em"
+			"radio-block"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -901,6 +908,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"calendar",
+			"label.form-label._settings",
+			"",
 			"wa-blog-list-item-tags__item clearfix",
 			" ",
 			" <div class=\"js-parallax-window parallax-window\" ",
@@ -1025,10 +1035,7 @@
 			"cr_stone_m",
 			"sand_m",
 			"sand_kg",
-			"sand_m",
-			"cement",
-			"bags",
-			"plaster_kg"
+			"sand_m"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1087,7 +1094,7 @@
 	"project": "limon-diet.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

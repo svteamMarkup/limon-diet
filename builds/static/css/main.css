@@ -5702,7 +5702,7 @@ body {
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
-  width: 100%;
+  width: 300px;
   max-width: 300px;
   margin-right: 20px;
   margin-bottom: 20px;
